@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>林知夏 | HR Manager</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=JetBrains+Mono:wght@400;700&family=Newsreader:opsz,wght@6..72,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="page">
+      <section class="hero">
+        <div class="hero-left">
+          <h1 id="name"></h1>
+          <p id="title" class="title"></p>
+          <p id="summary" class="summary"></p>
+          <div class="contact-row">
+            <p id="phone" class="mono"></p>
+            <p id="email" class="mono"></p>
+            <p id="city" class="mono"></p>
+          </div>
+        </div>
+
+        <aside class="hero-right">
+          <p id="metric-title" class="metric-title"></p>
+          <ul id="metrics" class="metric-list"></ul>
+          <div class="lang-wrap" role="tablist" aria-label="Language switcher">
+            <button id="lang-zh" class="lang-btn active" aria-selected="true">中文</button>
+            <button id="lang-en" class="lang-btn" aria-selected="false">EN</button>
+          </div>
+        </aside>
+      </section>
+
+      <section class="main-grid">
+        <div class="left-col">
+          <article class="card">
+            <h2 id="skills-title"></h2>
+            <ul id="skills-list"></ul>
+          </article>
+
+          <article class="card">
+            <h2 id="edu-title"></h2>
+            <ul id="edu-list"></ul>
+          </article>
+
+          <article class="card compact">
+            <h2 id="strength-title"></h2>
+            <ul id="strength-list"></ul>
+          </article>
+        </div>
+
+        <div class="right-col">
+          <article class="card">
+            <h2 id="exp-title"></h2>
+            <div id="jobs"></div>
+          </article>
+
+          <article class="card compact">
+            <h2 id="result-title"></h2>
+            <ul id="result-list"></ul>
+          </article>
+        </div>
+      </section>
+
+      <footer id="footer" class="footer"></footer>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
