@@ -13,9 +13,9 @@ const content = {
     ],
     contactTitle: "联系方式",
     contact: [
-      "手机：18629341912",
+      "手机：+86 186 2934 1912",
       "意向岗位：人力资源经理",
-      "期望地点：西安",
+      "期望地点：中国 陕西 西安",
       "期望薪资：13-15K",
     ],
     skillsTitle: "核心能力",
@@ -54,7 +54,7 @@ const content = {
       "绩效体系优化：按岗位特性重构考核指标，推动月度/季度考核与绩效改进闭环执行。",
       "人力成本与员工保留：优化薪酬福利结构，年均压缩无效人力成本 5%-8%，核心员工留存率提升 20%。",
     ],
-    footer: "感谢阅读 · 可尽快到岗 · 18629341912",
+    footer: "感谢阅读 · 可尽快到岗 · +86 186 2934 1912",
   },
   en: {
     lang: "en",
@@ -70,9 +70,9 @@ const content = {
     ],
     contactTitle: "Contact",
     contact: [
-      "Mobile: 18629341912",
+      "Mobile: +86 186 2934 1912",
       "Target Role: HR Manager",
-      "Preferred City: Xi'an",
+      "Location: Xi'an, Shaanxi, China",
       "Expected Salary: 13-15K RMB",
     ],
     skillsTitle: "Core Competencies",
@@ -111,7 +111,7 @@ const content = {
       "Performance system enhancement: rebuilt role-based metrics and implemented monthly/quarterly evaluation loops with follow-up improvement plans.",
       "Labor cost and retention: optimized compensation and benefits structure, reduced ineffective labor cost by 5%-8% per year, and increased retention of core employees by 20%.",
     ],
-    footer: "Thank you for reading · Available to onboard quickly · 18629341912",
+    footer: "Thank you for reading · Available to onboard quickly · +86 186 2934 1912",
   },
 };
 

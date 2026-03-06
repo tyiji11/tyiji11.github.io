@@ -1,0 +1,600 @@
+{
+  "version": "2.8",
+  "children": [
+    {
+      "type": "frame",
+      "id": "bi8Au",
+      "x": -15,
+      "y": -3,
+      "name": "Frame",
+      "clip": true,
+      "width": 1280,
+      "height": 1880,
+      "fill": "#F3F8FF",
+      "layout": "vertical"
+    },
+    {
+      "type": "frame",
+      "id": "6zVcu",
+      "x": 72,
+      "y": -263,
+      "name": "page",
+      "theme": {
+        "Mode": "Dark"
+      },
+      "width": 1280,
+      "fill": "#F7F8F7",
+      "layout": "vertical",
+      "gap": 20,
+      "padding": [
+        36,
+        52,
+        42,
+        52
+      ],
+      "children": [
+        {
+          "type": "frame",
+          "id": "qgYEy",
+          "name": "hero",
+          "width": "fill_container",
+          "height": 336,
+          "gap": 18,
+          "children": [
+            {
+              "type": "frame",
+              "id": "jHJFa",
+              "name": "leftTop",
+              "width": "fill_container",
+              "height": "fill_container",
+              "fill": {
+                "type": "gradient",
+                "gradientType": "linear",
+                "enabled": true,
+                "rotation": 135,
+                "size": {
+                  "height": 1
+                },
+                "colors": [
+                  {
+                    "color": "#EAF7F3",
+                    "position": 0
+                  },
+                  {
+                    "color": "#F3F8FF",
+                    "position": 1
+                  }
+                ]
+              },
+              "cornerRadius": 22,
+              "stroke": {
+                "thickness": 1,
+                "fill": "#BFE7DC"
+              },
+              "layout": "vertical",
+              "gap": 12,
+              "padding": [
+                28,
+                30
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "UJwwJ",
+                  "name": "name",
+                  "fill": "#20242A",
+                  "content": "林知夏 ZhiXia Lin",
+                  "fontFamily": "Geist",
+                  "fontSize": 46,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "FejdO",
+                  "name": "role",
+                  "fill": "#2DA58C",
+                  "content": "HRBP / 人才战略伙伴",
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 15,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "aVzRB",
+                  "name": "tagline",
+                  "fill": "#606A74",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "8 年互联网与出海团队经验，擅长组织诊断、关键岗位招聘与绩效体系优化。\n风格：业务导向 + 数据驱动 + 同理沟通。",
+                  "lineHeight": 1.35,
+                  "fontFamily": "Geist",
+                  "fontSize": 16
+                },
+                {
+                  "type": "frame",
+                  "id": "ARUiP",
+                  "name": "metaRow",
+                  "width": "fill_container",
+                  "height": 64,
+                  "gap": 10,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "0KKmN",
+                      "name": "m1",
+                      "width": "fill_container",
+                      "height": "fill_container",
+                      "fill": "#F3F9F7",
+                      "cornerRadius": 12,
+                      "stroke": {
+                        "thickness": 1,
+                        "fill": "#DBECE6"
+                      },
+                      "layout": "vertical",
+                      "gap": 2,
+                      "padding": [
+                        10,
+                        12
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "EJwkc",
+                          "name": "m1n",
+                          "fill": "#5FAF9D",
+                          "content": "工作年限",
+                          "fontFamily": "JetBrains Mono",
+                          "fontSize": 10,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "text",
+                          "id": "cdX2C",
+                          "name": "m1v",
+                          "fill": "#2C3138",
+                          "content": "8 年",
+                          "fontFamily": "Geist",
+                          "fontSize": 24,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "7zUqd",
+                      "name": "m2",
+                      "width": "fill_container",
+                      "height": "fill_container",
+                      "fill": "#F3F9F7",
+                      "cornerRadius": 12,
+                      "stroke": {
+                        "thickness": 1,
+                        "fill": "#DBECE6"
+                      },
+                      "layout": "vertical",
+                      "gap": 2,
+                      "padding": [
+                        10,
+                        12
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "y5wMq",
+                          "name": "m2n",
+                          "fill": "#5FAF9D",
+                          "content": "主导招聘",
+                          "fontFamily": "JetBrains Mono",
+                          "fontSize": 10,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "text",
+                          "id": "yUw1A",
+                          "name": "m2v",
+                          "fill": "#2C3138",
+                          "content": "120+",
+                          "fontFamily": "Geist",
+                          "fontSize": 24,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "A8VA4",
+                      "name": "m3",
+                      "width": "fill_container",
+                      "height": "fill_container",
+                      "fill": "#F3F9F7",
+                      "cornerRadius": 12,
+                      "stroke": {
+                        "thickness": 1,
+                        "fill": "#DBECE6"
+                      },
+                      "layout": "vertical",
+                      "gap": 2,
+                      "padding": [
+                        10,
+                        12
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "wNdDo",
+                          "name": "m3n",
+                          "fill": "#5FAF9D",
+                          "content": "跨国团队",
+                          "fontFamily": "JetBrains Mono",
+                          "fontSize": 10,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "text",
+                          "id": "onAhl",
+                          "name": "m3v",
+                          "fill": "#2C3138",
+                          "content": "6 国",
+                          "fontFamily": "Geist",
+                          "fontSize": 24,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "c2iQN",
+              "name": "rightTop",
+              "width": 360,
+              "height": "fill_container",
+              "fill": "#F4FBF8",
+              "cornerRadius": 22,
+              "stroke": {
+                "thickness": 1,
+                "fill": "#BFE7DC"
+              },
+              "layout": "vertical",
+              "gap": 10,
+              "padding": 22,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "BotmK",
+                  "name": "contactTitle",
+                  "fill": "#20242A",
+                  "content": "联系方式",
+                  "fontFamily": "Geist",
+                  "fontSize": 24,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "AxP44",
+                  "name": "c1",
+                  "fill": "#66707A",
+                  "content": "邮箱：hr.lin@example.com",
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 13,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "MBk6X",
+                  "name": "c2",
+                  "fill": "#66707A",
+                  "content": "手机：+86 138 0000 0000",
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 13,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "WwjOc",
+                  "name": "c3",
+                  "fill": "#66707A",
+                  "content": "城市：上海 / 可出差",
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 13,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "JKatO",
+                  "name": "c4",
+                  "fill": "#66707A",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "LinkedIn：linkedin.com/in/zhixialin",
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 13,
+                  "fontWeight": "500"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "dL0Ht",
+          "name": "main",
+          "width": "fill_container",
+          "gap": 16,
+          "children": [
+            {
+              "type": "frame",
+              "id": "UdhAa",
+              "name": "leftCol",
+              "width": 350,
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "9U5Dv",
+                  "name": "skillsCard",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 18,
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "#DCEBE6"
+                  },
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": 18,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "AJT7g",
+                      "name": "skillsTitle",
+                      "fill": "#2C3138",
+                      "content": "核心能力",
+                      "fontFamily": "Geist",
+                      "fontSize": 22,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "G7DdG",
+                      "name": "skillsBody",
+                      "fill": "#66707A",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "• 组织诊断与人才盘点\n• 中高端岗位招聘体系搭建\n• 绩效校准与干部评估\n• 跨文化团队协同与沟通",
+                      "lineHeight": 1.45,
+                      "fontFamily": "Geist",
+                      "fontSize": 15
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "GMwA9",
+                  "name": "eduCard",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 18,
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "#DCEBE6"
+                  },
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": 18,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "BSr65",
+                      "name": "eduTitle",
+                      "fill": "#2C3138",
+                      "content": "教育背景",
+                      "fontFamily": "Geist",
+                      "fontSize": 22,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "TMmHf",
+                      "name": "eduBody",
+                      "fill": "#66707A",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "华东师范大学 · 应用心理学 硕士\n2014 - 2017",
+                      "lineHeight": 1.4,
+                      "fontFamily": "Geist",
+                      "fontSize": 15
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "LFvzc",
+                  "name": "langCard",
+                  "width": "fill_container",
+                  "fill": "#FFF7E8",
+                  "cornerRadius": 18,
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "#F2D7A6"
+                  },
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": 18,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "vqzZi",
+                      "name": "langTitle",
+                      "fill": "#9A6A1E",
+                      "content": "语言与认证",
+                      "fontFamily": "Geist",
+                      "fontSize": 22,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "5ofb5",
+                      "name": "langBody",
+                      "fill": "#7A6541",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "英语 C1 · 日语 N2\nSHRM-CP · 国家二级心理咨询师",
+                      "lineHeight": 1.35,
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 13,
+                      "fontWeight": "500"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "PQcSg",
+              "name": "rightCol",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "YvmqR",
+                  "name": "expCard",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 18,
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "#DCEBE6"
+                  },
+                  "layout": "vertical",
+                  "gap": 10,
+                  "padding": 22,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "flGrH",
+                      "name": "expTitle",
+                      "fill": "#2C3138",
+                      "content": "工作经历（精选）",
+                      "fontFamily": "Geist",
+                      "fontSize": 28,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "8uNQk",
+                      "name": "exp1",
+                      "fill": "#66707A",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "2021 - 至今  某全球化 SaaS 公司  Senior HRBP\n负责中国与东南亚团队组织设计，支持业务从 120 人增长至 320 人，关键岗位 90 天到岗率提升 35%。",
+                      "lineHeight": 1.45,
+                      "fontFamily": "Geist",
+                      "fontSize": 15
+                    },
+                    {
+                      "type": "text",
+                      "id": "KF8OR",
+                      "name": "exp2",
+                      "fill": "#66707A",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "2018 - 2021  某头部互联网平台  HR Manager\n主导技术与产品线招聘与绩效项目，年度保留率提升 12%，核心团队敬业度提升 18%。",
+                      "lineHeight": 1.45,
+                      "fontFamily": "Geist",
+                      "fontSize": 15
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "e9UCV",
+                  "name": "projCard",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 18,
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "#DCEBE6"
+                  },
+                  "layout": "vertical",
+                  "gap": 10,
+                  "padding": 22,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "OtUTQ",
+                      "name": "projTitle",
+                      "fill": "#2C3138",
+                      "content": "代表项目",
+                      "fontFamily": "Geist",
+                      "fontSize": 28,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "uA1QI",
+                      "name": "projBody",
+                      "fill": "#66707A",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "• 全球招聘流程标准化：统一 JD、面试评分与录用门槛，招聘周期缩短 21%。\n• 绩效校准机制搭建：引入双向校准会，绩效争议率下降 30%。\n• 新任管理者训练营：覆盖 45 位 manager，90 天内团队协同评分提升 24%。",
+                      "lineHeight": 1.45,
+                      "fontFamily": "Geist",
+                      "fontSize": 15
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "1c2kL",
+          "name": "accent",
+          "width": "fill_container",
+          "height": 4,
+          "fill": {
+            "type": "gradient",
+            "gradientType": "linear",
+            "enabled": true,
+            "rotation": 90,
+            "size": {
+              "height": 1
+            },
+            "colors": [
+              {
+                "color": "#9FDACB",
+                "position": 0
+              },
+              {
+                "color": "#B6CCE8",
+                "position": 1
+              }
+            ]
+          },
+          "cornerRadius": 999
+        },
+        {
+          "type": "text",
+          "id": "pnyDv",
+          "name": "footer",
+          "fill": "#8A939D",
+          "textGrowth": "fixed-width",
+          "width": "fill_container",
+          "content": "感谢阅读 · 可在 2 周内到岗 · hr.lin@example.com",
+          "textAlign": "center",
+          "fontFamily": "JetBrains Mono",
+          "fontSize": 12,
+          "fontWeight": "500"
+        }
+      ]
+    }
+  ]
+}
