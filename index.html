@@ -3,11 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>林知夏 | HR Manager</title>
+    <title>唐彝吉 | HRM Resume</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=JetBrains+Mono:wght@400;700&family=Newsreader:opsz,wght@6..72,700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;700;800&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
@@ -15,20 +15,32 @@
   <body>
     <main class="page">
       <section class="hero">
-        <div class="hero-left">
+        <div class="left-top">
           <h1 id="name"></h1>
-          <p id="title" class="title"></p>
-          <p id="summary" class="summary"></p>
-          <div class="contact-row">
-            <p id="phone" class="mono"></p>
-            <p id="email" class="mono"></p>
-            <p id="city" class="mono"></p>
+          <p id="role" class="role"></p>
+          <p id="tagline" class="tagline"></p>
+          <div class="meta-row">
+            <article class="meta">
+              <p id="m1n" class="meta-name"></p>
+              <p id="m1v" class="meta-value"></p>
+            </article>
+            <article class="meta">
+              <p id="m2n" class="meta-name"></p>
+              <p id="m2v" class="meta-value"></p>
+            </article>
+            <article class="meta">
+              <p id="m3n" class="meta-name"></p>
+              <p id="m3v" class="meta-value"></p>
+            </article>
           </div>
         </div>
 
-        <aside class="hero-right">
-          <p id="metric-title" class="metric-title"></p>
-          <ul id="metrics" class="metric-list"></ul>
+        <aside class="right-top">
+          <h2 id="contact-title" class="contact-title"></h2>
+          <p id="c1" class="contact-item"></p>
+          <p id="c2" class="contact-item"></p>
+          <p id="c3" class="contact-item"></p>
+          <p id="c4" class="contact-item"></p>
           <div class="lang-wrap" role="tablist" aria-label="Language switcher">
             <button id="lang-zh" class="lang-btn active" aria-selected="true">中文</button>
             <button id="lang-en" class="lang-btn" aria-selected="false">EN</button>
@@ -48,25 +60,26 @@
             <ul id="edu-list"></ul>
           </article>
 
-          <article class="card compact">
-            <h2 id="strength-title"></h2>
-            <ul id="strength-list"></ul>
+          <article class="card highlight">
+            <h2 id="pref-title"></h2>
+            <ul id="pref-list"></ul>
           </article>
         </div>
 
         <div class="right-col">
           <article class="card">
-            <h2 id="exp-title"></h2>
-            <div id="jobs"></div>
+            <h2 id="exp-title" class="big-title"></h2>
+            <div id="jobs" class="jobs"></div>
           </article>
 
-          <article class="card compact">
-            <h2 id="result-title"></h2>
-            <ul id="result-list"></ul>
+          <article class="card">
+            <h2 id="proj-title" class="big-title"></h2>
+            <ul id="proj-list"></ul>
           </article>
         </div>
       </section>
 
+      <div class="accent"></div>
       <footer id="footer" class="footer"></footer>
     </main>
 
