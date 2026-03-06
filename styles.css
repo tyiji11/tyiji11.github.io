@@ -170,6 +170,45 @@ h1 {
   font-family: "JetBrains Mono", monospace;
   font-size: 10px;
   font-weight: 500;
+  position: relative;
+}
+
+[data-tooltip] {
+  cursor: help;
+  position: relative;
+  text-decoration: underline dotted;
+}
+
+[data-tooltip]:hover::after {
+  content: attr(data-tooltip);
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-bottom: 8px;
+  padding: 6px 10px;
+  background: rgba(0, 0, 0, 0.85);
+  color: #fff;
+  border-radius: 6px;
+  font-size: 12px;
+  white-space: pre;
+  z-index: 1000;
+  pointer-events: none;
+  font-family: "Noto Sans SC", sans-serif;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  min-width: max-content;
+}
+
+[data-tooltip]:hover::before {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 6px solid transparent;
+  border-top-color: rgba(0, 0, 0, 0.85);
+  margin-bottom: -4px;
+  z-index: 1000;
 }
 
 .meta-value {

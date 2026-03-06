@@ -5,11 +5,14 @@ const content = {
     name: "唐彝吉 Tang Yiji",
     role: "HRM / 人力资源经理",
     tagline:
-      "17 年人力资源全模块实战经验，10+ 年人力管理岗经历。\n深耕汽车、供应链、地产开发与建筑施工行业，擅长体系搭建、招聘配置、薪酬绩效与员工关系管理。",
+      "拥有17年人力资源全模块实战经验，其中10年以上人力管理岗经验，深耕汽车、供应链、地产开发、建筑施工、软件、媒体运营等多行业；",
     meta: [
       { name: "工作年限", value: "17 年" },
-      { name: '<span class="text-violet">主导招聘</span>', value: "80+ /年" },
-      { name: '<span class="text-amber">跨国团队</span>', value: "6 国" },
+      { name: '<span class="text-violet">主导招聘</span>', value: "80+ 人/年" },
+      {
+        name: '<span class="text-amber" data-tooltip="汽车、供应链、地产开发、建筑施工、软件、媒体运营">行业经验</span>',
+        value: "6 行业",
+      },
     ],
     contactTitle: "联系方式",
     contact: [
@@ -62,11 +65,14 @@ const content = {
     name: "Tang Yiji",
     role: "HRM / Human Resources Manager",
     tagline:
-      "17 years of full-cycle HR practice, including 10+ years in HR management roles.\nExperienced across automotive, supply chain, real estate development, and construction industries, with strengths in HR system building, talent acquisition, compensation and performance, and employee relations.",
+      "17 years of full-cycle HR experience, including 10+ years in management roles. Deep expertise in automotive, supply chain, real estate, construction, software, and media operations industries.",
     meta: [
       { name: "Years in HR", value: "17" },
       { name: '<span class="text-violet">Recruitment</span>', value: "80+ /yr" },
-      { name: '<span class="text-amber">Global Team</span>', value: "6 Countries" },
+      {
+        name: '<span class="text-amber" data-tooltip="Automotive, Supply Chain, Real Estate, Construction, Software, Media Operations">Industries</span>',
+        value: "6",
+      },
     ],
     contactTitle: "Contact",
     contact: [
