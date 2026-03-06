@@ -108,7 +108,8 @@
                   "content": "8 年互联网与出海团队经验，擅长组织诊断、关键岗位招聘与绩效体系优化。\n风格：业务导向 + 数据驱动 + 同理沟通。",
                   "lineHeight": 1.35,
                   "fontFamily": "Geist",
-                  "fontSize": 16
+                  "fontSize": 16,
+                  "fontWeight": "normal"
                 },
                 {
                   "type": "frame",
@@ -367,7 +368,8 @@
                       "content": "• 组织诊断与人才盘点\n• 中高端岗位招聘体系搭建\n• 绩效校准与干部评估\n• 跨文化团队协同与沟通",
                       "lineHeight": 1.45,
                       "fontFamily": "Geist",
-                      "fontSize": 15
+                      "fontSize": 15,
+                      "fontWeight": "normal"
                     }
                   ]
                 },
@@ -406,7 +408,8 @@
                       "content": "华东师范大学 · 应用心理学 硕士\n2014 - 2017",
                       "lineHeight": 1.4,
                       "fontFamily": "Geist",
-                      "fontSize": 15
+                      "fontSize": 15,
+                      "fontWeight": "normal"
                     }
                   ]
                 },
@@ -495,7 +498,8 @@
                       "content": "2021 - 至今  某全球化 SaaS 公司  Senior HRBP\n负责中国与东南亚团队组织设计，支持业务从 120 人增长至 320 人，关键岗位 90 天到岗率提升 35%。",
                       "lineHeight": 1.45,
                       "fontFamily": "Geist",
-                      "fontSize": 15
+                      "fontSize": 15,
+                      "fontWeight": "normal"
                     },
                     {
                       "type": "text",
@@ -507,7 +511,8 @@
                       "content": "2018 - 2021  某头部互联网平台  HR Manager\n主导技术与产品线招聘与绩效项目，年度保留率提升 12%，核心团队敬业度提升 18%。",
                       "lineHeight": 1.45,
                       "fontFamily": "Geist",
-                      "fontSize": 15
+                      "fontSize": 15,
+                      "fontWeight": "normal"
                     }
                   ]
                 },
@@ -546,7 +551,8 @@
                       "content": "• 全球招聘流程标准化：统一 JD、面试评分与录用门槛，招聘周期缩短 21%。\n• 绩效校准机制搭建：引入双向校准会，绩效争议率下降 30%。\n• 新任管理者训练营：覆盖 45 位 manager，90 天内团队协同评分提升 24%。",
                       "lineHeight": 1.45,
                       "fontFamily": "Geist",
-                      "fontSize": 15
+                      "fontSize": 15,
+                      "fontWeight": "normal"
                     }
                   ]
                 }
