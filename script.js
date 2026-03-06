@@ -8,8 +8,8 @@ const content = {
       "17 年人力资源全模块实战经验，10+ 年人力管理岗经历。\n深耕汽车、供应链、地产开发与建筑施工行业，擅长体系搭建、招聘配置、薪酬绩效与员工关系管理。",
     meta: [
       { name: "工作年限", value: "17 年" },
-      { name: "管理经验", value: "10+ 年" },
-      { name: "年均招聘", value: "80+" },
+      { name: '<span class="text-violet">主导招聘</span>', value: "80+ /年" },
+      { name: '<span class="text-amber">跨国团队</span>', value: "6 国" },
     ],
     contactTitle: "联系方式",
     contact: [
@@ -65,8 +65,8 @@ const content = {
       "17 years of full-cycle HR practice, including 10+ years in HR management roles.\nExperienced across automotive, supply chain, real estate development, and construction industries, with strengths in HR system building, talent acquisition, compensation and performance, and employee relations.",
     meta: [
       { name: "Years in HR", value: "17" },
-      { name: "Mgmt Experience", value: "10+ yrs" },
-      { name: "Annual Hiring", value: "80+" },
+      { name: '<span class="text-violet">Recruitment</span>', value: "80+ /yr" },
+      { name: '<span class="text-amber">Global Team</span>', value: "6 Countries" },
     ],
     contactTitle: "Contact",
     contact: [
@@ -175,9 +175,9 @@ function setLang(langKey) {
 
   nodes.m1n.textContent = data.meta[0].name;
   nodes.m1v.textContent = data.meta[0].value;
-  nodes.m2n.textContent = data.meta[1].name;
+  nodes.m2n.innerHTML = data.meta[1].name;
   nodes.m2v.textContent = data.meta[1].value;
-  nodes.m3n.textContent = data.meta[2].name;
+  nodes.m3n.innerHTML = data.meta[2].name;
   nodes.m3v.textContent = data.meta[2].value;
 
   nodes.contactTitle.textContent = data.contactTitle;

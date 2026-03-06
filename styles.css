@@ -7,10 +7,21 @@
   --hero-grad-end: #f3f8ff;
   --foreground: 210 13% 20%;
   --text-main: color-mix(in oklab, hsl(var(--foreground)) 70%, transparent);
+  --title-color: #050505;
   --text-muted: #66707a;
   --text-subtle: #5faf9d;
   --gold: #2da58c;
   --gold-soft: #b7ebe0;
+  --theme-violet: 262 83% 58%;
+  --color-amber-500: #f59e0b;
+}
+
+.text-violet {
+  color: hsl(var(--theme-violet));
+}
+
+.text-amber {
+  color: var(--color-amber-500);
 }
 
 * {
@@ -100,7 +111,7 @@ h1 {
   font-size: 46px;
   font-weight: 800;
   letter-spacing: 0.3px;
-  color: var(--text-main);
+  color: var(--title-color);
 }
 
 .role {
@@ -180,7 +191,7 @@ h1 {
 
 .contact-title {
   margin: 0 0 2px;
-  color: var(--text-main);
+  color: var(--title-color);
   font-size: 24px;
   font-weight: 700;
 }
@@ -250,7 +261,7 @@ h1 {
 
 .card h2 {
   margin: 0 0 10px;
-  color: var(--text-main);
+  color: var(--title-color);
   font-size: 22px;
   font-weight: 700;
 }
@@ -311,7 +322,7 @@ h1 {
 
 .job-title {
   margin: 0;
-  color: var(--text-main);
+  color: var(--title-color);
   font-size: 16px;
   font-weight: 700;
 }
