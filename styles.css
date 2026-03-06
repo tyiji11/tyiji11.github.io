@@ -1,15 +1,15 @@
 :root {
-  --page-bg: #0d1117;
+  --page-bg: #16131f;
   --canvas-bg: #f3f8ff;
-  --card-bg: #161f2e;
-  --card-border: #2f3d54;
-  --hero-grad-start: #121c2b;
-  --hero-grad-end: #1a2638;
-  --text-main: #f0f4fa;
-  --text-muted: #b7c3d8;
-  --text-subtle: #9fb0c8;
-  --gold: #d6a85a;
-  --gold-soft: #f1d8a8;
+  --card-bg: #2a2236;
+  --card-border: #5d4a72;
+  --hero-grad-start: #34253f;
+  --hero-grad-end: #4a345a;
+  --text-main: #fff3fa;
+  --text-muted: #dacce5;
+  --text-subtle: #cab5d8;
+  --gold: #f0bdd6;
+  --gold-soft: #f2c6d9;
 }
 
 * {
@@ -78,11 +78,11 @@ body {
 .hero {
   display: grid;
   grid-template-columns: 1fr 360px;
-  gap: 20px;
+  gap: 18px;
 }
 
 .left-top {
-  border-radius: 18px;
+  border-radius: 22px;
   padding: 28px 30px;
   display: flex;
   flex-direction: column;
@@ -97,7 +97,7 @@ h1 {
   font-size: 46px;
   font-weight: 800;
   letter-spacing: 0.3px;
-  color: #eef2f8;
+  color: #fff6fb;
 }
 
 .role {
@@ -110,7 +110,7 @@ h1 {
 
 .tagline {
   margin: 0;
-  color: #aab7cb;
+  color: #e0d2e6;
   font-size: 16px;
   line-height: 1.45;
   white-space: pre-line;
@@ -124,8 +124,8 @@ h1 {
 }
 
 .meta {
-  border-radius: 10px;
-  background: #ffffff10;
+  border-radius: 12px;
+  background: #ffffff14;
   padding: 10px 12px;
   min-height: 64px;
   display: flex;
@@ -159,16 +159,16 @@ h1 {
 
 .meta-value {
   margin: 0;
-  color: #eef2f8;
+  color: #fff6fb;
   font-size: 24px;
   font-weight: 700;
 }
 
 .right-top {
-  border-radius: 18px;
+  border-radius: 22px;
   padding: 22px;
-  background: #151e2c;
-  border: 1px solid #2d3a4f;
+  background: #2c2337;
+  border: 1px solid #5f4b73;
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -183,7 +183,7 @@ h1 {
 
 .contact-item {
   margin: 0;
-  color: #b8c2d3;
+  color: #dccde7;
   font-family: "JetBrains Mono", monospace;
   font-size: 13px;
   font-weight: 500;
@@ -197,7 +197,7 @@ h1 {
   gap: 6px;
   padding: 4px 6px;
   border-radius: 999px;
-  background: #ffffff18;
+  background: #ffffff14;
 }
 
 .lang-btn {
@@ -207,31 +207,31 @@ h1 {
   min-width: 46px;
   font-size: 12px;
   font-weight: 700;
-  color: #d7e4f4;
+  color: #f4dce9;
   background: transparent;
   cursor: pointer;
 }
 
 .lang-btn.active {
   background: var(--gold-soft);
-  color: #1b222e;
+  color: #3a273e;
 }
 
 .main-grid {
   display: grid;
   grid-template-columns: 350px 1fr;
-  gap: 18px;
+  gap: 16px;
 }
 
 .left-col,
 .right-col {
   display: flex;
   flex-direction: column;
-  gap: 14px;
+  gap: 12px;
 }
 
 .card {
-  border-radius: 14px;
+  border-radius: 18px;
   background: var(--card-bg);
   border: 1px solid var(--card-border);
   padding: 18px;
@@ -240,8 +240,8 @@ h1 {
 
 .card:hover {
   transform: translateY(-4px);
-  box-shadow: 0 16px 32px rgba(9, 15, 25, 0.45);
-  border-color: #3b4a62;
+  box-shadow: 0 16px 32px rgba(10, 7, 16, 0.45);
+  border-color: #6f5a86;
 }
 
 .card h2 {
@@ -253,6 +253,10 @@ h1 {
 
 .big-title {
   font-size: 28px;
+}
+
+.right-col .card {
+  padding: 22px;
 }
 
 .card ul {
@@ -270,14 +274,19 @@ h1 {
 }
 
 .highlight {
-  background: var(--gold);
-  border-color: var(--gold);
+  background: linear-gradient(120deg, #f2c6d9 0%, #e9b7cf 100%);
+  border-color: #efc0d5;
   animation: pulseGlow 6s ease-in-out infinite;
 }
 
 .highlight h2,
 .highlight li {
-  color: #171a20;
+  color: #3a273e;
+}
+
+.highlight li {
+  font-family: "JetBrains Mono", monospace;
+  font-size: 13px;
 }
 
 .jobs {
@@ -309,15 +318,15 @@ h1 {
 
 .accent {
   width: 100%;
-  height: 4px;
+  height: 5px;
   border-radius: 999px;
-  background: linear-gradient(90deg, #d6a85a 0%, #5d7faa 50%, #d6a85a 100%);
+  background: linear-gradient(90deg, #f2c6d9 0%, #b9a7f0 50%, #f2c6d9 100%);
   background-size: 200% 100%;
   animation: shimmer 6s linear infinite;
 }
 
 .footer {
-  color: #6e7d95;
+  color: #b39bbe;
   text-align: center;
   font-family: "JetBrains Mono", monospace;
   font-size: 12px;
