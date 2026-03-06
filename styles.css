@@ -1,15 +1,16 @@
 :root {
-  --page-bg: #16131f;
+  --page-bg: #f7f8f7;
   --canvas-bg: #f3f8ff;
-  --card-bg: #2a2236;
-  --card-border: #5d4a72;
-  --hero-grad-start: #34253f;
-  --hero-grad-end: #4a345a;
-  --text-main: #fff3fa;
-  --text-muted: #dacce5;
-  --text-subtle: #cab5d8;
-  --gold: #f0bdd6;
-  --gold-soft: #f2c6d9;
+  --card-bg: #ffffff;
+  --card-border: #dcebe6;
+  --hero-grad-start: #eaf7f3;
+  --hero-grad-end: #f3f8ff;
+  --foreground: 210 13% 20%;
+  --text-main: color-mix(in oklab, hsl(var(--foreground)) 70%, transparent);
+  --text-muted: #66707a;
+  --text-subtle: #5faf9d;
+  --gold: #2da58c;
+  --gold-soft: #b7ebe0;
 }
 
 * {
@@ -18,9 +19,10 @@
 
 body {
   margin: 0;
-  background: radial-gradient(circle at 18% 8%, #f8fbff 0%, var(--canvas-bg) 45%, #e9f1fc 100%);
+  background: radial-gradient(circle at 18% 8%, #fbfefd 0%, #f2f7f5 45%, #edf3f8 100%);
   color: var(--text-main);
   font-family: "Noto Sans SC", sans-serif;
+  font-size: 15.5px;
 }
 
 @keyframes fadeUp {
@@ -58,10 +60,10 @@ body {
 @keyframes pulseGlow {
   0%,
   100% {
-    box-shadow: 0 0 0 rgba(214, 168, 90, 0);
+    box-shadow: 0 0 0 rgba(242, 215, 166, 0);
   }
   50% {
-    box-shadow: 0 0 18px rgba(214, 168, 90, 0.35);
+    box-shadow: 0 0 18px rgba(242, 215, 166, 0.35);
   }
 }
 
@@ -90,6 +92,7 @@ body {
   background: linear-gradient(130deg, var(--hero-grad-start) 0%, var(--hero-grad-end) 100%);
   background-size: 180% 180%;
   animation: gradientShift 14s ease infinite;
+  border: 1px solid #bfe7dc;
 }
 
 h1 {
@@ -97,7 +100,7 @@ h1 {
   font-size: 46px;
   font-weight: 800;
   letter-spacing: 0.3px;
-  color: #fff6fb;
+  color: var(--text-main);
 }
 
 .role {
@@ -110,7 +113,7 @@ h1 {
 
 .tagline {
   margin: 0;
-  color: #e0d2e6;
+  color: #606a74;
   font-size: 16px;
   line-height: 1.45;
   white-space: pre-line;
@@ -125,7 +128,7 @@ h1 {
 
 .meta {
   border-radius: 12px;
-  background: #ffffff14;
+  background: #f3f9f7;
   padding: 10px 12px;
   min-height: 64px;
   display: flex;
@@ -135,6 +138,7 @@ h1 {
   opacity: 0;
   transform: translateY(10px);
   animation: fadeUp 0.6s ease forwards;
+  border: 1px solid #dbece6;
 }
 
 .meta:nth-child(1) {
@@ -159,7 +163,7 @@ h1 {
 
 .meta-value {
   margin: 0;
-  color: #fff6fb;
+  color: var(--text-main);
   font-size: 24px;
   font-weight: 700;
 }
@@ -167,8 +171,8 @@ h1 {
 .right-top {
   border-radius: 22px;
   padding: 22px;
-  background: #2c2337;
-  border: 1px solid #5f4b73;
+  background: #f4fbf8;
+  border: 1px solid #bfe7dc;
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -183,7 +187,7 @@ h1 {
 
 .contact-item {
   margin: 0;
-  color: #dccde7;
+  color: #66707a;
   font-family: "JetBrains Mono", monospace;
   font-size: 13px;
   font-weight: 500;
@@ -197,7 +201,7 @@ h1 {
   gap: 6px;
   padding: 4px 6px;
   border-radius: 999px;
-  background: #ffffff14;
+  background: #e5f4ef;
 }
 
 .lang-btn {
@@ -207,14 +211,14 @@ h1 {
   min-width: 46px;
   font-size: 12px;
   font-weight: 700;
-  color: #f4dce9;
+  color: #4f776d;
   background: transparent;
   cursor: pointer;
 }
 
 .lang-btn.active {
   background: var(--gold-soft);
-  color: #3a273e;
+  color: #1f6b5e;
 }
 
 .main-grid {
@@ -240,8 +244,8 @@ h1 {
 
 .card:hover {
   transform: translateY(-4px);
-  box-shadow: 0 16px 32px rgba(10, 7, 16, 0.45);
-  border-color: #6f5a86;
+  box-shadow: 0 16px 32px rgba(28, 54, 45, 0.16);
+  border-color: #b7ddd2;
 }
 
 .card h2 {
@@ -269,19 +273,23 @@ h1 {
 
 .card li {
   color: var(--text-muted);
-  font-size: 15px;
+  font-size: 15.5px;
   line-height: 1.45;
 }
 
 .highlight {
-  background: linear-gradient(120deg, #f2c6d9 0%, #e9b7cf 100%);
-  border-color: #efc0d5;
+  background: #fff7e8;
+  border-color: #f2d7a6;
   animation: pulseGlow 6s ease-in-out infinite;
 }
 
 .highlight h2,
 .highlight li {
-  color: #3a273e;
+  color: #7a6541;
+}
+
+.highlight h2 {
+  color: #9a6a1e;
 }
 
 .highlight li {
@@ -311,22 +319,22 @@ h1 {
 .job-desc {
   margin: 0;
   color: var(--text-muted);
-  font-size: 15px;
+  font-size: 15.5px;
   line-height: 1.45;
   white-space: pre-line;
 }
 
 .accent {
   width: 100%;
-  height: 5px;
+  height: 4px;
   border-radius: 999px;
-  background: linear-gradient(90deg, #f2c6d9 0%, #b9a7f0 50%, #f2c6d9 100%);
+  background: linear-gradient(90deg, #9fdacb 0%, #b6cce8 50%, #9fdacb 100%);
   background-size: 200% 100%;
   animation: shimmer 6s linear infinite;
 }
 
 .footer {
-  color: #b39bbe;
+  color: #8a939d;
   text-align: center;
   font-family: "JetBrains Mono", monospace;
   font-size: 12px;

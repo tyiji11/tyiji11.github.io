@@ -73,7 +73,7 @@ const content = {
       "Mobile: 18629341912",
       "Target Role: HR Manager",
       "Preferred City: Xi'an",
-      "Expected Salary: 8-10K RMB",
+      "Expected Salary: 13-15K RMB",
     ],
     skillsTitle: "Core Competencies",
     skills: [
@@ -213,4 +213,4 @@ function setLang(langKey) {
 nodes.langZh.addEventListener("click", () => setLang("zh"));
 nodes.langEn.addEventListener("click", () => setLang("en"));
 
-setLang("zh");
+setLang("en");
